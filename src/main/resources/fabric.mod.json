@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "combat-ding",
+  "version": "${version}",
+
+  "name": "Combat Ding",
+  "description": "A mod that will play a ding sound when you land a successful strike on a player.",
+  "authors": [
+    "GhostCode"
+  ],
+  "contact": {
+    "sources": "https://github.com/GhostCode64/Combat-Ding"
+  },
+
+  "license": "GPL-3.0 License",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ghostcode.combat_ding.main"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

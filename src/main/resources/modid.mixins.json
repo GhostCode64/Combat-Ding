@@ -6,7 +6,7 @@
   "mixins": [
   ],
   "client": [
-    "click"
+    "SheepShearMixin"
   ],
   "injectors": {
     "defaultRequire": 1
